@@ -1,0 +1,231 @@
+.rs-landing__products__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 66px;
+  color: white;
+  letter-spacing: -2.54px;
+  line-height: 58px;
+  text-align: center;
+  text-shadow: 0 2px 7px rgba(0, 0, 0, 0.82);
+  -webkit-text-stroke: 1px #000; }
+
+.rs-landing__products__learn-more-btn {
+  background-color: #EC2627;
+  color: #FFF;
+  font-weight: bold; }
+  .rs-landing__products__learn-more-btn:hover {
+    color: #FFF;
+    text-decoration: underline; }
+
+.rs-landing__product-details__title {
+  width: 100%;
+  color: #202020;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 52px;
+  letter-spacing: -2px;
+  line-height: 58px; }
+
+.rs-landing__product-details__description {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  opacity: 0.8;
+  color: #1f1f1f;
+  font-size: 18px;
+  line-height: 25px; }
+
+.rs-landing__product-details__img-preview {
+  margin-top: 10px; }
+
+.rs-landing__product-details__img {
+  width: 100%; }
+
+.rs-landing__product-details__table {
+  margin-bottom: 10px; }
+  .rs-landing__product-details__table__row {
+    border-bottom: 1px solid #E4F1FD;
+    max-width: 360px;
+    line-height: 40px;
+    font-family: "Roboto", sans-serif; }
+    .rs-landing__product-details__table__row-first {
+      margin-top: 50px;
+      border-top: 1px solid #E4F1FD; }
+    .rs-landing__product-details__table__row__key {
+      text-align: left;
+      font-weight: 500; }
+    .rs-landing__product-details__table__row__value {
+      text-align: right;
+      font-weight: 700; }
+
+.rs-landing__our-team__avatar {
+  width: 100%; }
+
+.rs-landing__our-team__name {
+  margin-top: 20px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  width: 100%; }
+
+.rs-landing__our-team__title {
+  color: #4F4F4F;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+  width: 100%; }
+
+.rs-landing__our-team__details {
+  margin-top: 10px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  width: 100%; }
+
+.rs-navbar {
+  background-color: #000; }
+  .rs-navbar__logo {
+    background: url("./assets/logo_small.png");
+    background-size: 128px 50px;
+    width: 128px;
+    height: 50px; }
+  .rs-navbar__toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+  .rs-navbar__link {
+    color: #FFF; }
+    .rs-navbar__link:hover {
+      color: #FFF;
+      text-decoration: underline; }
+  .rs-navbar__contact-us-btn {
+    background-color: #EC2627;
+    color: #FFF;
+    font-weight: bold; }
+    .rs-navbar__contact-us-btn:hover {
+      color: #FFF;
+      text-decoration: underline; }
+
+.rs-footer {
+  background-color: #000; }
+  .rs-footer__links-block {
+    border-bottom: 1px solid #FFF; }
+    .rs-footer__links-block__logo {
+      background: url("./assets/logo_small.png");
+      background-size: 128px 50px;
+      width: 128px;
+      height: 50px;
+      margin-top: 5px;
+      margin-bottom: 5px; }
+      @media (min-width: 768px) {
+        .rs-footer__links-block__logo {
+          margin-top: 36px;
+          margin-bottom: 36px; } }
+      @media (max-width: 767px) {
+        .rs-footer__links-block__logo {
+          margin-left: auto;
+          margin-right: auto; } }
+    .rs-footer__links-block__link-wrapper {
+      margin: 5px auto; }
+      @media (min-width: 767px) {
+        .rs-footer__links-block__link-wrapper {
+          margin: 48px auto; } }
+      @media (max-width: 575px) {
+        .rs-footer__links-block__link-wrapper {
+          width: 100%;
+          text-align: center; } }
+    .rs-footer__links-block__link {
+      color: #FFF; }
+      .rs-footer__links-block__link:hover {
+        text-decoration: underline;
+        color: #FFF; }
+    .rs-footer__links-block__social-links {
+      margin-top: 10px;
+      margin-bottom: 10px; }
+      @media (min-width: 576px) {
+        .rs-footer__links-block__social-links {
+          margin-top: 44px;
+          margin-bottom: 44px; } }
+    .rs-footer__links-block__social-link {
+      color: #FFF; }
+  .rs-footer__copyright {
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+    @media (min-width: 576px) {
+      .rs-footer__copyright {
+        padding-top: 36px;
+        padding-bottom: 36px; } }
+
+.rs-contact-us__asterisk {
+  color: red; }
+
+.rs-contact-us__submit-btn {
+  background-color: #EC2627;
+  color: #FFF;
+  font-weight: bold; }
+  .rs-contact-us__submit-btn:hover {
+    color: #FFF;
+    text-decoration: underline; }
+
+.rs-contact-us__title {
+  color: #3C3C3C;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  margin-bottom: 10px; }
+
+.rs-contact-us__social-links {
+  margin-bottom: 50px; }
+  .rs-contact-us__social-links__link {
+    color: #000; }
+
+.rs-contact-us__avatar {
+  position: absolute;
+  bottom: 0;
+  background-image: url("./assets/Witch.png");
+  height: 334px;
+  width: 300px;
+  background-size: 300px;
+  background-repeat: no-repeat; }
+  @media (max-width: 767px) {
+    .rs-contact-us__avatar {
+      display: none; } }
+
+.rs-contact-us__form {
+  margin-bottom: 50px; }
+
+[img-preview-src] {
+  cursor: pointer; }
+
+.rs-title {
+  color: #2D2D2D;
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: -1.62px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center; }
+  @media (min-width: 576px) {
+    .rs-title {
+      margin-top: 90px;
+      margin-bottom: 60px; } }
+
+.rs-privacy-policy, .rs-terms-of-service {
+  margin-top: 50px; }
