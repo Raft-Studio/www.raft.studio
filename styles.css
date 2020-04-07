@@ -319,6 +319,9 @@
 [img-preview-src] {
   cursor: pointer; }
 
+.CookieDeclaration {
+  display: none; }
+
 .rs-title {
   color: #2D2D2D;
   font-family: "Roboto", sans-serif;
