@@ -60,6 +60,14 @@
       text-align: right;
       font-weight: 700; }
 
+.rs-landing__product-details__learm-more-btn {
+  font-family: "Roboto", sans-serif;
+  background-color: #000;
+  color: #FFF; }
+  .rs-landing__product-details__learm-more-btn:hover {
+    color: #FFF;
+    text-decoration: underline; }
+
 .rs-landing__our-team__avatar {
   width: 100%; }
 
@@ -90,6 +98,98 @@
   font-weight: 400;
   line-height: 25px;
   text-align: center;
+  width: 100%; }
+
+.rs-product__content {
+  margin-top: 50px; }
+
+.rs-product__title {
+  width: 100%;
+  color: #202020;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 52px;
+  letter-spacing: -2px;
+  line-height: 58px; }
+
+.rs-product__subtitle {
+  height: 19px;
+  color: #2D2D2D;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.62px;
+  margin-top: 30px;
+  margin-bottom: 10px; }
+
+.rs-product__description {
+  color: #2D2D2D;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: -0.69px;
+  line-height: 21px;
+  text-align: justify; }
+
+.rs-product__team {
+  height: 19px;
+  color: #2D2D2D;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: -0.62px;
+  margin-top: 10px; }
+
+.rs-product__table {
+  margin-bottom: 10px; }
+  .rs-product__table__row {
+    border-bottom: 1px solid #E4F1FD;
+    max-width: 360px;
+    line-height: 40px;
+    font-family: "Roboto", sans-serif; }
+    .rs-product__table__row-first {
+      margin-top: 30px;
+      border-top: 1px solid #E4F1FD; }
+    .rs-product__table__row__key {
+      text-align: left;
+      font-weight: 500; }
+    .rs-product__table__row__value {
+      text-align: right;
+      font-weight: 700; }
+
+.rs-product__img-preview {
+  margin-top: 10px; }
+
+.rs-product__img {
+  width: 100%; }
+
+.portfolio h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif; }
+
+.portfolio .col-md-3, .portfolio .col-md-4, .portfolio .col-md-5, .portfolio .col-md-6, .portfolio .col-md-7, .portfolio .col-md-8, .portfolio .col-md-9, .portfolio .col-md-10, .portfolio .col-md-11, .portfolio .col-md-12 {
+  padding-left: 0;
+  padding-right: 0; }
+
+.portfolio .row {
+  margin-right: 0;
+  margin-left: 0; }
+  .portfolio .row img {
+    padding: 3px; }
+
+.portfolio h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold; }
+
+.portfolio .sub-header-menu {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .portfolio .sub-header-menu a {
+    color: black; }
+
+.portfolio .portfolio-img {
   width: 100%; }
 
 .rs-navbar {
@@ -198,14 +298,20 @@
 .rs-contact-us__avatar {
   position: absolute;
   bottom: 0;
-  background-image: url("./assets/Witch.png");
-  height: 334px;
   width: 300px;
   background-size: 300px;
   background-repeat: no-repeat; }
   @media (max-width: 767px) {
     .rs-contact-us__avatar {
       display: none; } }
+
+.rs-contact-us__avatar-1 {
+  height: 334px;
+  background-image: url("./assets/Witch.png"); }
+
+.rs-contact-us__avatar-2 {
+  height: 310px;
+  background-image: url("./assets/Skeletone.png"); }
 
 .rs-contact-us__form {
   margin-bottom: 50px; }
